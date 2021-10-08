@@ -1,0 +1,7 @@
+*.sln
+kln/packages
+kln/Debug
+kln/kln/Debug
+*.vcxproj*
+*.config
+kln/.vs
