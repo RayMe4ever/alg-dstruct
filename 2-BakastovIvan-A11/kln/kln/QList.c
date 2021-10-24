@@ -22,7 +22,14 @@ int Full(Queue* Q) {
 void Add(Queue *Q,int value) {
 	if (Q->first == NULL) 
 	{
+
 		Q->last = Q->first = malloc(sizeof(Node));
+		Node* datasave = Q->last;
+
+		if (datasave == NULL) {
+			free(Q->last);
+			return;
+		}
 		Q->first->next = NULL;
 	}
 	else 
