@@ -1,0 +1,17 @@
+/Debug
+/Release
+/packages.config
+/packages
+*.sln
+*.vcxproj
+*.filters
+*.user
+*.suo
+*.db
+*.txt
+/.vs 
+/.vcxproj
+/.exe
+/.log
+/.tlog
+/.vc142
